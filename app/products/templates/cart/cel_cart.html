@@ -1,0 +1,12 @@
+{% extends 'layout/tienda.html' %}
+
+{% load cart_tags %}
+{% block title %} Greaser - Inicio {% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-12">
+            {% include "cart/widget.html" %}
+        </div>
+    </div>
+{% endblock %}

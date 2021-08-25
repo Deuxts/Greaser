@@ -1,0 +1,70 @@
+div.contenido-nav nav div form a{
+    padding-right: 20px;
+    margin: auto;
+}
+img.logo{
+    width: 160px;
+    padding: 10px 0px;
+}
+img.prueba{
+    height: 120px;
+    padding: 10px 20px;
+}
+header.contenedor{
+    background-color: rgba(255, 184, 214, 35%);
+}
+div nav div a img{
+    width: 65px;
+    padding: 2px 15px 2px 0px;
+}
+div div ul li.nav-item{
+    padding-left: 40px;
+}
+body{
+    background-color: rgba(255, 184, 214, 30%);
+    background-image: url(../img/logo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.borde{
+    border: 1px black solid;
+    text-align: center;
+    height: 50px;
+}
+
+.color1{
+    background-color: cyan;
+}
+.color2{
+    background-color: white;
+}
+.color3{
+    background-color:orange;
+}
+.color4{
+    background-color: green;
+}
+td.oculto{
+    background-color: #ffe599;
+    text-align: center;
+}
+td.visible{
+    background-color: #d0ffcf;
+    text-align: center;
+}
+.colorfooter{
+    color: white;
+}
+.FootPad{
+    padding-right: 30px;
+}
+img.nombre{
+    width: 80%;
+}
+
+.btn-colorP{
+
+}
