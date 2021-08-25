@@ -3,6 +3,8 @@
 import os
 import sys
 
+#Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+#.\env\Scripts\Activate.ps1
 
 def main():
     """Run administrative tasks."""
