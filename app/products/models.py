@@ -25,9 +25,9 @@ class Product(models.Model):
     excerpt = models.TextField(max_length=200, verbose_name='Extracto')
     detail = models.TextField(max_length=1000, verbose_name='Información del producto')
     price = models.FloatField()
-    tallaG = models.IntegerField()
-    tallaM = models.IntegerField()
-    tallaC = models.IntegerField()
+    tallaG = models.IntegerField(default=1)
+    tallaM = models.IntegerField(default=1)
+    tallaC = models.IntegerField(default=1)
     available = models.BooleanField(default=True)
 
     def __str__(self):
